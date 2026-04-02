@@ -1,23 +1,52 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>MyVolvo - Kullanım Şartları</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyVolvo - Terms of Service & Privacy Policy</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; padding: 40px; max-width: 800px; margin: auto; background: #f9f9f9; }
-        .card { background: white; padding: 30px; border-radius: 10px; shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        body { font-family: -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: auto; padding: 40px; background: #f4f7f6; }
+        .card { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        h1 { color: #1a1a1b; border-bottom: 2px solid #00bcd4; padding-bottom: 10px; }
+        h2 { color: #007c91; margin-top: 30px; }
+        .lang-section { margin-bottom: 50px; }
+        .disclaimer { font-style: italic; color: #666; font-size: 0.9em; margin-top: 20px; border-top: 1px solid #eee; pt: 20px; }
     </style>
 </head>
 <body>
     <div class="card">
-        <h1>Kullanım Şartları ve Gizlilik</h1>
-        <p><strong>MyVolvo</strong>, Volvo sahipleri için geliştirilmiş, ticari olmayan bir hobi projesidir.</p>
-        <ul>
-            <li>Verileriniz (VIN, konum vb.) asla sunucularımızda saklanmaz.</li>
-            <li>Uygulama, doğrudan resmi Volvo API'leri ile iletişim kurar.</li>
-            <li>Bu uygulama Volvo Cars ile resmi bir bağa sahip değildir, topluluk odaklı bir araçtır.</li>
-        </ul>
-        <p>Uygulamayı kullanarak resmi Volvo API kullanım şartlarını da kabul etmiş sayılırsınız.</p>
+        <div class="lang-section">
+            <h1>Terms of Service & Privacy Policy</h1>
+            <p><strong>Last Updated: April 2026</strong></p>
+            
+            <h2>1. Overview</h2>
+            <p>MyVolvo is a non-commercial, community-driven mobile application developed to enhance the digital experience for Volvo owners. It is built by enthusiasts, for enthusiasts, with a focus on transparency and data security.</p>
+
+            <h2>2. Data Privacy & Security</h2>
+            <p><strong>Zero Data Retention:</strong> MyVolvo does not own or operate any external servers. Your vehicle data (VIN, location, battery status, etc.) is never stored, collected, or shared with third parties. All communication happens directly between your mobile device and the official Volvo Cars API endpoints.</p>
+            <p><strong>Authentication:</strong> We use the industry-standard OAuth2 with PKCE flow. MyVolvo never sees or stores your Volvo ID password. Authentication is handled entirely through Volvo’s secure login portal.</p>
+
+            <h2>3. Disclaimer</h2>
+            <p>This application is <strong>not</strong> an official product of Volvo Cars. It is an independent project utilizing official Volvo Developer APIs. Use of the app is at the owner's risk.</p>
+        </div>
+
+        <hr>
+
+        <div class="lang-section">
+            <h1>Kullanım Şartları ve Gizlilik</h1>
+            <h2>1. Uygulama Hakkında</h2>
+            <p>MyVolvo, Volvo kullanıcı deneyimini iyileştirmek amacıyla geliştirilmiş, ticari amaç gütmeyen bir topluluk projesidir.</p>
+
+            <h2>2. Veri Gizliliği</h2>
+            <p>Uygulama tamamen <strong>sunucusuz (serverless)</strong> çalışır. Aracınıza ait veriler (konum, batarya, kilit durumu vb.) asla kaydedilmez ve üçüncü taraflarla paylaşılmaz. Tüm veri trafiği telefonunuz ile Volvo sunucuları arasındadır.</p>
+
+            <h2>3. Güvenlik</h2>
+            <p>Giriş işlemleri resmi Volvo protokolleri ile yapılır. Şifreniz uygulamamız tarafından görülmez veya saklanmaz.</p>
+        </div>
+
+        <div class="disclaimer">
+            Contact: ccelik13@ku.edu.tr | Developed by Caner Çelik
+        </div>
     </div>
 </body>
 </html>
