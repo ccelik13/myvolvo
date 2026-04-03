@@ -1,23 +1,19 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyVolvo - Giriş Başarılı</title>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MyVolvo Callback</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background-color: #000; color: #fff; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; text-align: center; }
-        .container { padding: 40px; border: 1px solid #222; border-radius: 20px; background: #111; }
-        .logo { color: #00bcd4; font-size: 24px; font-weight: bold; margin-bottom: 20px; }
-        h1 { font-size: 20px; margin-bottom: 10px; }
-        p { color: #888; font-size: 14px; }
+      body { font-family: Arial, sans-serif; padding: 24px; }
+      pre { white-space: pre-wrap; word-break: break-word; }
     </style>
-</head>
-<body>
-    <div class="container">
-        <div class="logo">MyVolvo</div>
-        <h1>Giriş Başarılı!</h1>
-        <p>Volvo hesabınız başarıyla doğrulandı.</p>
-        <p>Lütfen uygulamaya geri dönün.</p>
-    </div>
-</body>
+  </head>
+  <body>
+    <h2>Callback geldi</h2>
+    <pre id="out"></pre>
+    <script>
+      document.getElementById('out').textContent =
+        'URL:\\n' + window.location.href + '\\n\\nQuery:\\n' + window.location.search;
+    </script>
+  </body>
 </html>
