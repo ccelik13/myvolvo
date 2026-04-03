@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.ccelik13.myvolvo",
+    "sha256_cert_fingerprints": ["<91:55:DB:2E:21:95:77:5F:36:5E:5A:A8:FA:F6:27:E8:FB:A4:C2:80:9D:B6:69:C0:65:57:DE:70:10:B2:AE:00>"]
+  }
+}]
